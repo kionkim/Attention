@@ -63,8 +63,10 @@ There are 6 files in ./python. File tree looks like
 
 For more details on the models, please read the following blogs
 
-* Sentiment analysis using Self-attention
-https://medium.com/apache-mxnet/sentiment-analysis-via-self-attention-with-mxnet-gluon-dc774d38ba69
+* Sentiment analysis using Self-attention:
+
+  - https://medium.com/apache-mxnet/sentiment-analysis-via-self-attention-with-mxnet-gluon-dc774d38ba69
 
 * Self-attention: A clever compromise
-https://medium.com/@kion.kim/self-attention-a-clever-compromise-4d61c28b8235
+
+  - https://medium.com/@kion.kim/self-attention-a-clever-compromise-4d61c28b8235
