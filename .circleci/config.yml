@@ -15,4 +15,4 @@ jobs:
             command: python -m pytest --cov=./ ./test_sample.py
          - run:
             name: Code coverage
-            command: codecov
+            command: python -m codecov
