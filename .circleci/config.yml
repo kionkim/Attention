@@ -7,7 +7,7 @@ jobs:
          - checkout
          - run:
             name: Install python deps
-            command: pip install -r requirements.txt
+            command: pip install -r --user requirements.txt
          - run:
             name: run test sample
             command: pytest test_sample.py
