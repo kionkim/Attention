@@ -7,7 +7,9 @@ jobs:
          - checkout
          - run:
             name: Install python deps
-            command: pip install --user -r requirements.txt
+            command: | 
+               pip install --user -r requirements.txt
+               sudo pip install --user codecov
          - run:
             name: run test sample
             command: python -m pytest --cov=./ ./test_sample.py

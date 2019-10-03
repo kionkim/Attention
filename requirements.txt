@@ -7,5 +7,4 @@ scipy==1.1.0
 sklearn==0.0
 gluonnlp==0.4.1
 pytest
-codecov==2.0.15
 pytest-cov==2.7.1
