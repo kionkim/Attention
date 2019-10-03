@@ -8,3 +8,4 @@ sklearn==0.0
 gluonnlp==0.4.1
 pytest
 pytest-cov==2.7.1
+nltk==3.4.5
