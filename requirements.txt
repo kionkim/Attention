@@ -26,8 +26,6 @@ decorator==4.4.0
 defusedxml==0.6.0
 dill==0.2.9
 easydict==1.9
-eeyore==0.2
-elasticsearch==7.0.2
 entrypoints==0.3
 fanstatic==1.1
 flake8==3.6.0
