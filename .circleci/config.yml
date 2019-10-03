@@ -11,6 +11,6 @@ jobs:
          - run:
             name: run test sample
             command: python -m pytest --cov=./ ./test_sample.py
-         -run:
+         - run:
             name: Code coverage
             command: codecov
