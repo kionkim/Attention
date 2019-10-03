@@ -10,4 +10,7 @@ jobs:
             command: pip install --user -r requirements.txt
          - run:
             name: run test sample
-            command: python -m pytest test_sample.py
+            command: python -m pytest --cov=./ ./test_sample.py
+         -run:
+            name: Code coverage
+            command: 
