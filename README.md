@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/kionkim/Attention.svg?style=svg)](https://circleci.com/gh/kionkim/Attention)
+
 # RNN
 Material for MODU
 
