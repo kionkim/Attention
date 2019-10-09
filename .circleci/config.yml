@@ -8,7 +8,7 @@ jobs:
          - run:
             name: Install python deps
             command: | 
-               pip install --user -r requirements.txt
+               sudo pip install --user -r requirements.txt
                sudo pip install codecov
                sudo python -m spacy download en
          #- run:
