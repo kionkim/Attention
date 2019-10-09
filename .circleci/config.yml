@@ -15,7 +15,7 @@ jobs:
          #   command: python -m pytest --cov=./ ./test_sample.py
          - run:
             name: run sentiment_RNN_SA for testing
-            run: ./test.sh
+            command: ./test.sh
          #- run:
          #   name: Code coverage
          #   command: codecov
