@@ -10,9 +10,12 @@ jobs:
             command: | 
                pip install --user -r requirements.txt
                sudo pip install codecov
+         #- run:
+         #   name: run test sample
+         #   command: python -m pytest --cov=./ ./test_sample.py
          - run:
-            name: run test sample
-            command: python -m pytest --cov=./ ./test_sample.py
-         - run:
-            name: Code coverage
-            command: codecov
+            name: run sentiment_RNN_SA for testing
+            run: ./test.sh
+         #- run:
+         #   name: Code coverage
+         #   command: codecov
