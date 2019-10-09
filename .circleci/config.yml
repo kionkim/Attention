@@ -10,6 +10,7 @@ jobs:
             command: | 
                pip install --user -r requirements.txt
                sudo pip install codecov
+               python -m spacy download en
          #- run:
          #   name: run test sample
          #   command: python -m pytest --cov=./ ./test_sample.py
